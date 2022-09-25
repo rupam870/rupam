@@ -1,0 +1,291 @@
+body {
+    background-color: #EFEFEF;
+    margin: 0px;
+  }
+  #myLinks{
+      display: none;
+      margin-top: 56px;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30px;
+      background-color:white;
+  }
+
+  .nav2{
+      padding-bottom: 15px;
+      background-position: inherit;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+  }
+  .nav21{
+    padding-top: 15px;
+  }
+
+.mainbutton{
+    margin-left: auto;
+     margin-right:auto; 
+     padding:15px 40px 15px 40px; 
+     color:#E5E5E5; 
+     background-color: #000000;
+     border-radius:32px;
+     border:none;
+}
+
+.center{
+    text-align: center;
+}
+.nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 90px;
+    border: none;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+}
+.landing{
+    font-size: 24px;
+}
+.container{
+    display: flex;  
+justify-content: center;  
+align-items: center;  
+flex-direction: column;
+height: 760px;
+}
+
+.black{
+    background-color: #000000;
+    opacity: 95%;
+}
+
+.white{
+    color: #F5F5F7;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+}
+.whitediv{
+    background-color: white;
+    width: 24%;
+    height:470px ;
+    margin-top: 42px;
+    margin-bottom: 167px;
+}
+.blog{
+padding-left:36px ;
+padding-top: 50px;
+font-size: 22px;
+font-weight:  500; 
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:40px 40px 0 40px ;
+}
+
+.footer{
+    height: 579px;
+
+}
+
+#column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+#row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    justify-content: center;
+
+}
+.contact{
+    color: #F5F5F7;
+    font-size:22px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+.headweb{
+    font-size: 60px;
+    padding-bottom:39px;
+}
+.navdesktop{
+    width: 100%; 
+    height:0px; 
+    background-color:#EFEFEF;
+}
+.navimgdesktop{
+    width:0px;
+    height:0px;
+}
+.aboutmobile{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.landing{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.contactp{
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+}
+.img3{
+    margin-left: 15%;
+}
+@media only screen and (max-width: 1200px){
+    .aboutmobile{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nav2{
+        font-size: 16px;
+    }
+    .mainbutton{
+        margin-left: auto;
+         margin-right:auto; 
+         padding:12px 24px 12px 24px; 
+         color:#E5E5E5; 
+         background-color: #000000;
+         border-radius:32px;
+         border:none;
+         font-size: 16px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .contact{
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+    .container{
+        height: 650px;
+    }
+    .contactp{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .aboutmobile{
+        font-size: 16px;
+        margin-left: 4%;
+    margin-right: 4%;
+    }
+    #about{
+        margin-top: 50px;
+    }
+    .landing{
+        font-size: 16px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .navmobile{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    }
+    .navimgmobile{
+        width:48px;
+        height:48px;
+        margin-top: 8px;
+        margin-right: 4px;
+    }
+    .navbar{
+        display: none;
+    }
+    
+    .headmobile{
+        font-size: 32px;
+    }
+    .blog{
+       font-size: 18px; 
+    }
+    .whitediv{
+        width: 90%;
+        margin-bottom: 5px;
+        height: 403px;
+    }
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    p{
+        font-size: 16px;
+
+    }
+    h2{
+        font-size: 18px;
+    }
+    .img1{
+        width: 266px;
+        height: 322px;
+    }
+    .img2{
+        width: 396px;
+        height: 264px;
+        margin-left: 10px;
+    }
+
+    .img3{
+        width: 334px;
+        height: 328px;
+        margin-left: 50%;
+    }
+    .img4{
+        width: 364px;
+        height: 250px;
+    }
+  }
